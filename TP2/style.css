@@ -1,0 +1,26 @@
+
+  .cabecera{
+    font-size: 32PX;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .titulo{
+  text-decoration: underline;
+  font-size: 20PX
+}
+body{
+  background-color: #FFD279;
+  font-size: 18PX;
+}
+table {
+  border-style: dotted;
+}
+.materia{
+  font-size: 28PX;
+  font-style: italic;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+  
