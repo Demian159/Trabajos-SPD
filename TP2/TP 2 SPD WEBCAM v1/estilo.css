@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	font-family:Arial, Helvetica, sans-serif ;
+	scroll-behavior: smooth;
+}
+
+
+.clearfix {
+	clear: both;
+}
+body{
+	background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+header{
+
+	text-align: left;
+	height: 100px;
+	padding: 10px;
+	background: #1c92d2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+header img {
+
+	float: right;
+	position: absolute;
+   top: 0;
+   right: 0;
+   height: 80px;
+   margin: 5px;
+   padding: 10px;
+}
+
+.title {
+
+	text-align: center;
+	padding: 10px;
+	background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+aside {
+	background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+	width: 30%;
+	float: left;
+	margin-top: 100px;
+	margin:15px;
+	min-height: auto;
+	}
+aside h3 {
+	text-align: center;
+}
+aside ul li {
+	list-style: none;
+}
+
+.flecha i {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #81ecec;
+	bottom 40px;
+	bottom: 40px;
+	right: 50px;
+	border-radius: 50%;
+
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	font-size: 50px;
+	color: white;
+}
+.flecha i:hover {
+	background: white;
+	color: #81ecec;
+}
+.texto {
+
+	width: 50%;
+	float: left;
+	margin: 2%;
+	padding: 20px;
+}
+.texto h3 {
+	font-size: 30px;
+	text-align: center;
+
+}
+.texto h4,p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.texto h5 {
+	text-decoration: wavy;
+
+}
+.bibliografia {
+padding: 5% 10%;	
+background: #616161;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ ;
+}
